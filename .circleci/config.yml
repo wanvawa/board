@@ -7,4 +7,5 @@ jobs:
       - checkout
       - run: echo 'hello world!'
       - run: pwd
-      - run: ./hello
+      - run: ls
+      - run: ./board/hello
