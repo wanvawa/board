@@ -1,8 +1,8 @@
 version: 2
 jobs:
-        build:
-                docker:
-                        - image: circleci/gcc
-                steps:
-                        - checkout
-                        - run: echo 'Hello world!'
+  build:
+    docker:
+      - image: gidospa/repotest:latest
+    steps:
+      - checkout
+      - run: echo 'hello world!'
